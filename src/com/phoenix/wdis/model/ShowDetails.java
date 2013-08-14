@@ -9,6 +9,7 @@ public class ShowDetails {
 	private Date updatedDate;
 	private String showName;
 	private String rating;
+	private String review;
 
 	public ShowDetails() {
 	}
@@ -56,6 +57,14 @@ public class ShowDetails {
 
 	public void setRating(String rating) {
 		this.rating = rating;
+	}
+
+	public String getReview() {
+		return review;
+	}
+
+	public void setReview(String review) {
+		this.review = review;
 	}
 
 }

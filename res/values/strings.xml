@@ -5,8 +5,15 @@
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
     <string name="mov_list">List!</string>
-
+    <string name="action_refresh">Refresh</string>
+    <string name="action_new">New</string>
     <string name="generic_error_message">Ouch! Looks like your data connection dropped out. Let\'s try again to connect</string>
     
+    <string name="title_activity_add_movie">AddMovie</string>
+    <string name="movie_title_hint">Eg: The Godfather</string>
+    <string name="movie_title">Title</string>
+    <string name="movie_review">Review</string>
+    <string name="movie_rating">Rating</string>
+    <string name="save">Save</string>
 
 </resources>

@@ -22,6 +22,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.phoenix.wdis.activity.AddMovieActivity"
+            android:label="@string/title_activity_add_movie" >
+        </activity>
     </application>
 
 </manifest>
