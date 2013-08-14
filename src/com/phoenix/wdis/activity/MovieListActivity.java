@@ -10,10 +10,12 @@ import android.widget.ListView;
 import com.phoenix.wdis.R;
 import com.phoenix.wdis.adapter.MovieListAdapter;
 import com.phoenix.wdis.model.ShowDetails;
+import com.phoenix.wdis.sqlite.dao.MovieDao;
 
 public class MovieListActivity extends Activity {
 
 	private ListView listView;
+	private MovieDao movieDao;
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -29,6 +31,7 @@ public class MovieListActivity extends Activity {
 
 	private ArrayList<ShowDetails> getMovieList() {
 
+		movieDao = new MovieDao(MovieListActivity.this);
 		ArrayList<ShowDetails> movieList = new ArrayList<ShowDetails>();
 
 		return movieList;

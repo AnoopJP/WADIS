@@ -26,6 +26,7 @@ public class WDISApp extends Application {
 	public void onCreate() {
 		super.onCreate();
 		sharedApplication = this;
+		// DatabaseHelper db = new DatabaseHelper(this);
 	}
 
 	public void saveGPSState(boolean isChecked) {
